@@ -1,0 +1,71 @@
+.containerwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inventation{
+    color: black;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(https://media.istockphoto.com/photos/silver-and-blue-balloons-on-wooden-background-concept-of-happiness-picture-id1295951564?b=1&k=20&m=1295951564&s=170667a&w=0&h=9zkRc0i9XJYPdtluiBkK-NHtsOU2_6uh8CBN5XYWD5M=);
+    background-size: 130%;
+    
+}
+
+.b-day{
+color: rgb(89, 89, 236);
+}
+
+.party{
+    color: silver;
+}
+
+h2{
+    color: rgb(89, 89, 236);
+}
+
+.btn{
+    background-color: rgb(89, 89, 236);
+    width: 95px;
+    height: 38px;
+    color: silver;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    transition-delay: 0.5s;
+}
+.box{
+        width: 450px;
+        height: 85px;
+        display: flex;
+        justify-content: space-between;
+}
+    
+.img1, .img2{
+        width: 90px;
+        animation-name: images;
+        animation-duration: 4s;
+        border-radius: 6px;
+        opacity: 0.6;   
+        
+}
+
+@keyframes images{
+        0%{transform: scale(1.1) rotate(0deg);}
+        50%{transform: scale(2.0) rotate(360deg);}
+        100%{transform: scale(1) rotate(0deg);}
+        
+}
+
+
+        
+        
+       
+    
